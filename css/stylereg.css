@@ -1,0 +1,103 @@
+body {
+  background-image: url("gradient.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+h1 {
+    margin-left: 129px;
+    font-family: castellar;
+    font-style: oblique;
+    font-size: 55px;
+
+    display: inline;
+}
+
+
+#first {
+	background-color: rgb(120,120,120);
+	border: 5px solid;
+	padding: 15px;
+	border-radius: 25px;
+	display: inline-block;
+}
+
+
+#main {
+	font-family: times new roman;
+	font-style: bold;
+	color: black;
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+
+div a:hover {
+	background-color: rgb(223, 215, 198);
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+legend {
+	font-size: 50px;
+	font-family: castellar;
+	font-style: oblique;
+	color: white;
+}
+fieldset {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+	width: 300px;
+	height: 450px;
+	border: 5px solid;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+input {
+	width: 300px;
+}
+pre {
+	font-size: 30px;
+	font-family: times new roman;
+	font-style: oblique;
+  margin-left: 85px;
+
+}
+
+button {
+  margin-left: 104px;
+}
+
+
+.alert-success{
+  font-size: 35px;
+  margin-left: 450px;
+  width: 450px;
+  background-color: rgba(0,255,0,0.5);
+  border: 2px solid rgba(0,255,0,0.5);
+  border-radius: 10px;
+}
+
+
+.alert-danger{
+  font-size: 35px;
+  width: 125px;
+  background-color: rgba(255,0,0,0.5);
+  margin-left: 600px;
+  border: 2px solid rgba(255,0,0,0.5);
+  border-radius: 10px;
+}
+
+#log {
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 50px;
+  margin-left: 100px;
+  display: inline;
+}

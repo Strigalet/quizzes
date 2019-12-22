@@ -1,0 +1,138 @@
+/*
+Делаем обрамление нашей страницы
+фон и его параметры: фиксированный
+и на весь экран :)
+*/
+
+body {
+  background-image: url("gradient.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*
+Название сайта моего)))))))
+Ну типо титулка
+*/
+
+h1 {
+	  margin-left: 310px;
+	  display: inline;
+    font-family: castellar;
+    font-style: oblique;
+    font-size: 55px;
+}
+
+/*
+Перемещение по элементам сайта:
+информация, отзыв, вход, регистрация;
+*/
+.para1 {
+	font-family: times new roman;
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	padding: 7px;
+	}
+
+.para2 {
+	font-family: times new roman;
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	padding: 7px;
+}
+
+/*
+Форматирование ссылок при наведении
+на них)))
+
+*/
+div a:hover {
+	background-color: rgb(223, 215, 198);
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+li a:hover {
+	background-color: rgba(234, 232, 222,0.7);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/*
+Фон кнопочек перемещения
+*/
+
+.lul1 {
+	width: 105px;
+	padding-left: 10px;
+	text-align: center;
+	display: inline;
+}
+
+.lul2 {
+	width: 105px;
+	padding-right: 15px;
+	text-align: center;
+	display: inline;
+}
+
+
+#first {
+	background-color: rgb(120,120,120);
+	border: 5px solid;
+	border-radius: 25px;
+	padding: 15px;
+	display: inline-block;
+
+}
+
+#second {
+	background-color: rgb(120,120,120);
+	border: 5px solid;
+	padding: 15px;
+	border-radius: 25px;
+	margin-left: 900px;
+	display: inline-block;
+}
+/*
+Форматирование таблиц
+*/
+#tablee {
+	border: 1px solid black;
+ 	border-collapse: collapse;
+ 	margin-top: 60px;
+ 	margin-left: 300px;
+ 	width: 900px;
+}
+
+th, tr {
+	background-color: rgba(0,0,0,0.5);
+	border: 2px solid black;
+}
+
+/*
+Совушка)))))))
+*/
+#sova {
+	width: 500px;
+}
+
+/*
+Форматирование блока с заданиями
+*/
+.zadaniya {
+	font-size: 40px;
+	border: 2px solid black;
+	padding-bottom: 100px;
+}
+
+#forsova {
+	width: 500px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+}

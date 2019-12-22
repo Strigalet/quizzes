@@ -1,0 +1,59 @@
+body {
+  background-image: url("gradient.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+h1 {
+    margin-left: 129px;
+    font-family: castellar;
+    font-style: oblique;
+    font-size: 55px;
+    float: center;
+    display: inline;
+}
+h2{
+    font-family: castellar;
+    font-style: oblique;
+    font-size: 50px;
+    float: center;
+}
+#first {
+	background-color: rgb(120,120,120);
+	border: 5px solid;
+	padding: 15px;
+	border-radius: 25px;
+	display: inline-block;
+}
+
+
+#main {
+	font-family: times new roman;
+	font-style: bold;
+	color: black;
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#text {
+	font-size: 20px;
+	margin-left: 50px;
+	width: 650px;
+	height: 100px;
+}
+
+#submit{
+	margin-left: 200px;
+	width: 657px;
+	height: 30px;
+}
+
+div a:hover{
+	background-color: rgb(223, 215, 198);
+	border-radius: 15px;
+	cursor: pointer;
+}

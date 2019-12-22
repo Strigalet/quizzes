@@ -1,0 +1,75 @@
+body {
+  background-image: url("gradient.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+h1 {
+
+  font-family: castellar;
+  font-style: oblique;
+  font-size:40px;
+
+}
+#first {
+	background-color: rgb(120,120,120);
+	border: 5px solid;
+	padding: 5px;
+	border-radius: 25px;
+	display: block;
+	width: 135px;
+}
+
+#main {
+	font-family: times new roman;
+	font-style: bold;
+	color: black;
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+div a:hover {
+	background-color: rgb(223, 215, 198);
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+
+
+
+a:hover{
+	background-color: grey;
+}
+
+
+.prekol{
+  background-color: rgba(0,0,0,0.5);
+	border: 5px solid black;
+	border-collapse: none;
+	text-align: center;
+	padding: 16px;
+	width: 800px;
+  margin-left:300px;
+
+}
+h2 {
+  font-family: times new roman;
+  font-style: oblique;
+  font-size:30px;
+}
+a {
+  display: block;
+  font-size:20px;
+  padding: 25px;
+}
+#next {
+ display: none;
+ font-size: 30px;
+border-radius: 15px;
+ margin-left: 655px;
+ margin-top: 10px;
+ width: 77px;
+}
